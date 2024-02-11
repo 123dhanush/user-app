@@ -27,7 +27,7 @@ export const UserDetails = () => {
         setUserDetails(data);
       })
       .catch((err) => {
-        console.log("Unable to fetch Users", err);
+        console.log("Unable to fetch Individual User Details", err);
       });
   };
   useEffect(() => {
