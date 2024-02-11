@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Getting Started with User App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Versions required to build this project
+
+Node : v18.17+
+
+React : v18.2
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install's the required packages to run the application
 
 ### `npm start`
 
