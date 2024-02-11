@@ -37,7 +37,7 @@ export const UserDetails = () => {
     let companyList = userDetails.company.split(",");
 
     return companyList.map((company) => {
-      return <li>{company}</li>;
+      return <li key={company}>{company}</li>;
     });
   };
 
